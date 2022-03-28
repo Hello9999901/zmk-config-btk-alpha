@@ -44,9 +44,6 @@ jobs:
       - name: Zaphod DTS File
         if: ${{ always() }}
         run: cat -n build/zephyr/btk_alpha.dts.pre.tmp
-      - name: btk_alpha .config
-        if: ${{ always() }}
-        run: cat -n build/zephyr/.config
       - name: Rename zmk.uf2
         run: cp build/zephyr/zmk.uf2 zaphod.uf2
       - name: Archive
