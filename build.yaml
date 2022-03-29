@@ -13,4 +13,5 @@
 #
 ---
 include:
-  - board: bt60_v1_hs
+  - board: nice_nano_v2
+    shield: btk_alpha
